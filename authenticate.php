@@ -4,7 +4,7 @@ session_start();
 $DATABASE_HOST = 'wpdb.cdy9kerizbgn.ap-southeast-1.rds.amazonaws.com';
 $DATABASE_USER = 'tamizh';
 $DATABASE_PASS = 'mypassword';
-$DATABASE_NAME = 'wpdb';
+$DATABASE_NAME = 'wordpress_db';
 // Try and connect using the info above.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if ( mysqli_connect_errno() ) {
