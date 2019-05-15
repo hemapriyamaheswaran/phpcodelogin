@@ -1,10 +1,10 @@
 <?php
 session_start();
 // Change this to your connection info.
-$DATABASE_HOST = 'wpdb.cdy9kerizbgn.ap-southeast-1.rds.amazonaws.com';
-$DATABASE_USER = 'tamizh';
-$DATABASE_PASS = 'mypassword';
-$DATABASE_NAME = 'wordpress_db';
+$DATABASE_HOST = 'hemapriyadb.mysql.database.azure.com';
+$DATABASE_USER = 'hemapriya';
+$DATABASE_PASS = 'ZIPPYOPSzipp11';
+$DATABASE_NAME = 'hemadb';
 // Try and connect using the info above.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if ( mysqli_connect_errno() ) {
