@@ -6,8 +6,8 @@ if (!isset($_SESSION['loggedin'])) {
 	header('Location: index.html');
 	exit();
 }
-$DATABASE_HOST = 'wpdb.cdy9kerizbgn.ap-southeast-1.rds.amazonaws.com';
-$DATABASE_USER = 'tamizh';
+$DATABASE_HOST = 'hemapriyadb.mysql.database.azure.com';
+$DATABASE_USER = 'hema';
 $DATABASE_PASS = 'mypassword';
 $DATABASE_NAME = 'wordpress_db';
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
