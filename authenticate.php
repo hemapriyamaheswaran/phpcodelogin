@@ -2,7 +2,7 @@
 session_start();
 // Change this to your connection info.
 $DATABASE_HOST = 'hemapriyadb.mysql.database.azure.com';
-$DATABASE_USER = 'hemapriya';
+$DATABASE_USER = 'hemapriya@hemapriyadb';
 $DATABASE_PASS = 'ZIPPYOPSzipp11';
 $DATABASE_NAME = 'hemadb';
 // Try and connect using the info above.
